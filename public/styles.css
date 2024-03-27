@@ -49,7 +49,7 @@ header nav ul li a:hover {
 
 /* Hero section styles */
 .hero {
-    background-image: url('.JPG');
+    background-image: url('your-background-image.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -68,16 +68,9 @@ header nav ul li a:hover {
 
 /* Container styles */
 .container {
-    display: flex;
-    align-items: center; /* Center flex items vertically */
-    justify-content: space-between; /* Distribute space between flex items */
-    max-width: 960px; /* Limit container width */
-    margin: 0 auto; /* Center container horizontally */
-    padding: 0 20px; /* Add padding */
-}
-
-.hero h2, p {
-    color: #222;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* Portfolio section styles */
@@ -127,7 +120,6 @@ footer {
 footer p {
     font-size: 14px;
 }
-
 .no-right-click {
     pointer-events: none; /* Disable pointer events */
     user-select: none; /* Disable text selection */
